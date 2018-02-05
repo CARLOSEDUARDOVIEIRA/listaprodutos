@@ -1,0 +1,55 @@
+img{
+    max-width: 100%;    
+    width: 180px;
+    height: 180px;
+    margin-left: 10%;
+    object-fit: scale-down;        
+}
+  
+.lista {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f5efef;
+    float: left;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 0px #e4d8d8;
+    position:relative;
+    overflow:hidden;    
+}
+
+.lista:hover{top:-3px;box-shadow:0 3px 3px #666}
+
+.lista span{float:left;font-weight: bold;}
+.lista span:last-child{float:right;}
+  
+h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #ccc4c4;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    max-width: 30ch;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+
+    .offer{
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    border-top: 1px solid #ccc4c4;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #afadad;
+    }
+
+    #pesquisa {
+        text-align: center;        
+    }
