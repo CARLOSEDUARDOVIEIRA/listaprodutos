@@ -37,9 +37,9 @@
                                             <div class="lista">
                                                 <img src="{{prod.imagem}}">
                                                 <h3 title="{{prod.titulo}}">{{prod.titulo}}</h3>
-                                                <span class="pull-right">Preço: {{prod.preco}}</span>
+                                                <span class="pull-right">Preço: R$ {{prod.preco}}</span>
                                                 <div class="offer" ng-if="prod.nparcela!=null">
-                                                    <b>Parcelamos em:</b> {{prod.nparcela}} x {{prod.vparcela}}
+                                                    <b>Parcelamos em:</b> {{prod.nparcela}} x R$ {{prod.vparcela}}
                                                 </div>
                                                 <div class="offer" ng-if="prod.nparcela==null">
                                                     <b>Somente à vista</b>
